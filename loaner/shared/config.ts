@@ -82,7 +82,7 @@ export const CHROME_ENDPOINTS: EnvironmentsVariable = {
  * NOTE: Each key must be on a single-line!
  */
 export const CHROME_PUBLIC_KEYS: EnvironmentsVariable = {
-  prod: '{PROD_CHROME_KEY_PASTE}',
+  prod: '407651661683-ar8lvtik24lvla8vaujunnf9mo0il2er.apps.googleusercontent.com',
   qa: '{QA_CHROME_KEY}',
   dev: '{DEV_CHROME_KEY}',
 };
@@ -239,11 +239,11 @@ export const HEARTBEAT: HeartbeatConfiguration = {
 export const TROUBLESHOOTING_INFORMATION =
 'Contact your IT department for assistance.';
 /** Phone number of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_PHONE = ['{ITPHONENUMBER}'];
+export const IT_CONTACT_PHONE = ['651-500-1152'];
 /** Website of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_WEBSITE = '{ITWEBSITE}';
+export const IT_CONTACT_WEBSITE = 'https://sites.google.com/google.com/grabandgo/home';
 /** Email of IT; Placed on Manage/troubleshoot page. */
-export const IT_CONTACT_EMAIL = '{ITEMAIL}';
+export const IT_CONTACT_EMAIL = 'gngadmin@gng-demo.com';
 /** Failure message after 3 failure prompts occur. */
 export const FAILURE_MESSAGE = `Since this has failed a couple of times the
 application will now quit. If the issue persists contact your

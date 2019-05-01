@@ -1,8 +1,26 @@
 {
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
   "description": "Start and manage your GnG experience here!",
-  "version": "0.0.1",
+  "icons": {
+    "128": "assets/icons/gng128.png",
+    "16": "assets/icons/gng16.png",
+    "48": "assets/icons/gng48.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuUKtF2t2IegA5K33RkOiZsdjpLI4K24MG4QyHEbZSQuQU8cCDMfy4TbV5VzPioYYbsrtfRRXsfmdsg2grZf95qSkqH6S0Dhe9ECrA1lOdvhF5xGN1ZKvki7WdzJw4hgxnfFyfQe1hrxyoEFlsQZzYiTUGqIE3cyU21v9Il8GM7Tmf2XzOTYCHqxFeaoq8bfeBgz2XeuTpaPdZjfCvywuNBbMoPhXMxsrLWF3/kTqwavctV5ncI9eYRYgd9xw3DR8ueQlniO+qIB+YnQx5k7oAde6IK8UQCkomM0RF3nKt1yssxZazLcLrqsKsI3w+tuJJPcKzoYzIAPvHmlbuDSrnQIDAQAB",
   "manifest_version": 2,
   "name": "GnG Loaner App",
+  "oauth2": {
+    "client_id": "407651661683-ar8lvtik24lvla8vaujunnf9mo0il2er.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  },
   "permissions": [
     "https://www.google-analytics.com/",
     "alarms",
@@ -13,20 +31,5 @@
     "webview",
     "app.window.alwaysOnTop"
   ],
-  "app": {
-    "background": {
-      "scripts": [ "background.js" ]
-    }
-  },
-  "icons": {
-    "16": "assets/icons/gng16.png",
-    "48": "assets/icons/gng48.png",
-    "128": "assets/icons/gng128.png"
-  },
-  "oauth2": {
-    "client_id": "{CHROMEOAUTH2ID}",
-    "scopes": [
-      "https://www.googleapis.com/auth/userinfo.email"
-    ]
-  }
+  "version": "0.0.2"
 }
